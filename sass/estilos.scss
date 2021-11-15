@@ -1,0 +1,63 @@
+// Variables
+
+$background-color: #2d2d2d;
+$main-color: #EE5340;
+$font-size: 1rem;
+$title: Impact,
+Haettenschweiler,
+'Arial Narrow Bold',
+sans-serif;
+$font-family: Arial,
+Helvetica,
+sans-serif;
+$white: #fff;
+$em: 1em;
+
+// Valores generales
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//Fondo y centrado
+
+body {
+
+    background-color: $background-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+//Estilos caja contenedora
+
+.box {
+    border: 1px solid $white;
+    padding: $em * 2;
+    border-radius: $em;
+}
+
+// Título
+
+
+h1 {
+    font-family: $title;
+    font-size: $font-size * 3.5;
+    color: $main-color;
+    text-align: center;
+
+}
+
+p {
+
+    font-family: $font-family;
+    font-size: $font-size;
+    color: $white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: $em / 2;
+
+}
